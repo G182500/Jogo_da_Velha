@@ -1,0 +1,25 @@
+﻿<!DOCTYPE HTML>
+<html lang="pt">
+
+    <head>
+      <title>Jogo da Velha</title>
+      <script src="codigo.js"></script>
+      <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+
+    <body>
+      <header>Bem-vindo ao Jogo da Velha!<br><br></header>
+
+      <section id="tabuleiro">
+        <input type="button" id="1x1" value="_" onclick="apertou('1x1')"><input type="button" id="1x2" value="_" onclick="apertou('1x2')"><input type="button" id="1x3" value="_" onclick="apertou('1x3')">
+            <br><input type="button" id="2x1" value="_" onclick="apertou('2x1')"><input type="button" id="2x2" value="_" onclick="apertou('2x2')"><input type="button" id="2x3" value="_" onclick="apertou('2x3')">
+            <br><input type="button" id="3x1" value="_" onclick="apertou('3x1')"><input type="button" id="3x2" value="_" onclick="apertou('3x2')"><input type="button" id="3x3" value="_" onclick="apertou('3x3')">
+      </section>
+      <aside>
+        <p id="texto">Jogador X, é a sua vez!</p>
+        <button type="submit" onclick="zerar()" value="Reiniciar jogo">Reiniciar</button><br><br>
+      </aside>
+      <footer>Desenvolvido por Gabriel Santos Bueno</footer>
+    </body>
+
+</html>

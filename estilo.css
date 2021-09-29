@@ -1,0 +1,41 @@
+body{
+font-family:"Comic Sans MS", cursive;
+text-align:center;
+}
+
+input{
+font-size:110px;
+cursor:pointer;
+font-family:"Comic Sans MS", cursive;
+width:100px;
+}
+
+button{
+font-size:34px;
+border-radius:28px;
+cursor:pointer;
+box-shadow:0 9px #999;
+background-color:#18F264;
+font-family:"Comic Sans MS", cursive;
+}
+
+button:active{
+box-shadow:0 5px #666;
+transform:translateY(4px);
+}
+
+header{
+text-align:left;
+font-size:42px;
+}
+
+section{
+float:left;
+width:75%;
+}
+
+aside{
+float:left;
+width:25%;
+font-size:28px;
+}
